@@ -18,14 +18,15 @@
             <nav class="nav">
                 <a href="./index.html" class="nav-logo"><span class="colortext">Web</span>Studio</a>
                 <ul class="nav-links">
-                    <li><a href="./index.html" class="nav-link">Студия</a></li>
-                    <li><a href="./portfolio.html" class="nav-link current">Портфолио</a></li>
+                    <li><a href="./index.html" class="nav-link current">Студия</a></li>
+                    <li><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
                     <li><a href="" class="nav-link">Контакты</a></li>
                 </ul>
                 <ul class="nav-contact">
-                    <li><a href="mailto:info@devstudio.com" class="nav-link">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="nav-link">+38 096 111 11 11</a></li>
-                 </ul>
+                    <li class="list-contact"><a href="mailto:info@devstudio.com" class="nav-link"><svg class="contact-svg" width="16" height="12"><use href="../images/icons.svg#email"></use></svg>info@devstudio.com</a></li>
+                    <li class="list-contact"><a href="tel:+380961111111" class="nav-link"><svg class="contact-svg" width="10" height="16"><use href="./images/icons.svg#phone"></use>
+                    </svg>+38 096 111 11 11</a></li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -98,14 +99,55 @@
 
     <!-- Футер -->
     <footer class="footer">
-        <div class="container">
-            <address class="address">
-                <a href="" class="address-logo"><span class="colortext">Web</span><span class="colorstudio">Studio</span></a>
-                <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p> 
-                <p class="contacts"><a href="mailto:info@example.com" class="address-contact mail">info@example.com</a></p>
-                <p class="contacts"><a href="tel:+380991111111" class="address-contact telephone">+38 099 111 11 11</a></p>
-            </address>
-        </div>
+        <div class="footer container">
+            <div class="footer-first">
+                <address class="address">
+                    <a href="./index.html" class="address-logo"><span class="colortext">Web</span><span class="colorstudio">Studio</span></a>
+                    <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p> 
+                    <p class="contacts"><a href="mailto:info@example.com" class="address-contact mail">info@example.com</a></p>
+                    <p class="contacts"><a href="tel:+380991111111" class="address-contact telephone">+38 099 111 11 11</a></p>
+                </address>
+            </div>
+       
+
+            <div class="footer-second">
+                <h3 class="footer-second-title">присоединяйтесь</h3>
+                <ul class="footer-second-name">
+                    <li class="footer-second-menu">
+                        <a class="footer-second-item" href="#">
+                            <svg class="footer-second-svg">
+                                <use href="./images/icons.svg#instagram">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-second-menu">
+                        <a class="footer-second-item" href="#">
+                            <svg class="footer-second-svg">
+                                <use href="./images/icons.svg#twitter">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-second-menu">
+                        <a class="footer-second-item" href="#">
+                            <svg class="footer-second-svg">
+                                <use href="./images/icons.svg#facebook">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-second-menu">
+                        <a class="footer-second-item" href="#">
+                            <svg class="footer-second-svg">
+                                <use href="./images/icons.svg#linkedin">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div> 
     </footer>
     </body>
 </html>
