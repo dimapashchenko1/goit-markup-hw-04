@@ -1,0 +1,277 @@
+/* Главный шрифт документа */
+body {
+    font-family: 'Roboto', sans-serif;
+   
+}
+a {
+    text-decoration: none;
+  }
+
+ul {
+    list-style: none;
+}
+
+/* активная ссылка  */
+a.current, .nav-link:active {
+    color: var(--blue-text);
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+a,
+p,
+ul,
+li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+pre {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Container */
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    
+/* ===HEADER=== */
+.header {
+    background-color: var(--white-text);
+    box-sizing: content-box;
+    border-bottom: 1px solid;
+    border-color: var(--grey-border);
+    max-height: 80px;
+}
+
+.nav,
+.nav-links,
+.nav-contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.nav-logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--black-text-logo);
+}
+
+.nav-logo .colortext {
+    color: var(--blue-text)
+}
+/* Стили шапки */
+
+.nav-links {
+    box-sizing: content-box;
+    max-width: 294px;
+    max-height: 16px;
+    margin-left: 93px;
+    }
+
+.nav-links .nav-link {
+    margin-right: 50px;
+}
+
+.nav-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--black-text);
+}
+
+
+.icon-mail,
+.icon-tell {
+    margin-right: 10px;
+}
+
+.nav-contact {
+    box-sizing: content-box;
+    margin-left: 305px;
+}
+
+.list-contact {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-contact .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+a[href="mailto:info@devstudio.com"] {
+    margin-right: 30px;
+}
+
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--blue-text);
+}
+
+.nav-contact .nav-link {
+    color: var(--grey-text);
+}
+
+
+.nav-contact .nav-link:hover, .nav-contact .nav-link:focus {
+    color: var(--blue-text);
+}
+
+.nav-contact {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+.contact-svg{
+    fill: var(--accent-text);
+    margin-right: 10px;
+    fill:  currentColor;
+    
+}
+
+
+/* Стили Футера */
+.footer {
+    background-color: var(--black-background);
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.address-logo {
+    padding-top: 60px;
+}
+.address-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--white-text);
+}
+
+.colortext {
+    color: var(--blue-text)
+}
+
+.address-text {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.contacts {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.address-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--white-text);
+}
+.address-contact {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--white-text-op60);
+}
+
+.address-contact {
+    margin-top: 9px;
+    margin-bottom: 0px;
+}
+
+.telephone {
+    margin-bottom: 56px;
+}
+
+.footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-first {
+    margin-right: 70px;
+}
+
+.footer-second-title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--white-text);
+}
+
+.footer-second-menu:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+.footer-second-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 44px;
+    height: 44px;
+    color: var(--white-text);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+  }
+  
+.footer-second-item:hover,
+.footer-second-item:focus {
+    background-color: var(--accent-text);
+    border-radius: 50%;
+    color: var(--white-text);
+  }
+  
+.footer-second-svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+  
+.footer-second-name,
+.footer-second-menu {
+    display: flex;
+  }

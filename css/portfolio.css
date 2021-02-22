@@ -1,0 +1,96 @@
+main {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white-text);
+}
+
+/* ==Меню== */
+.menu-filter {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+
+.filter {
+    border-radius: 4px;
+    padding: 6px 22px;
+    margin-right: 8px
+    
+}
+
+.filter {
+    background-color: var(--grey-team-background);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: var(--black-text);
+}
+
+.filter:hover, .filter:focus {
+    background-color: var(--blue-background);
+    color: var(--white-text);
+}
+
+/* ==Постери== */
+.menu{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.menu-filter {
+    margin-bottom: 50px;
+}
+
+.poster {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--list-gap));
+    margin-top: calc(-1 * var(--list-gap));
+    
+}
+
+.poster-list {
+    flex-basis: calc(100% / 4 - var(--list-gap));
+    margin-left: var(--list-gap);
+    margin-top: var(--list-gap);
+    max-width: 370px;
+    max-height: 404px;
+    border: 1px solid;
+    border-color: var(--grey-border);
+}
+
+
+.poster-name {
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-bottom: 0px;
+}
+
+.poster-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--black-text);
+}
+
+.poster-type {
+    margin-top: 4px;
+    margin-left: 24px;
+}
+
+.poster-type {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--grey-text);
+}
