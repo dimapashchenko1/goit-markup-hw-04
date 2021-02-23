@@ -290,8 +290,10 @@ main {
 }
 
 .title-clients {
+    margin: 0px;
+    padding: 0px;
     font-size: 36px;
-    line-height: calc(42 / 36);
+    line-height: 1.666;
     letter-spacing: 0.03em;
 
     margin-bottom: 50px;
