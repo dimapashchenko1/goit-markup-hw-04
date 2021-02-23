@@ -9,14 +9,16 @@ main {
     justify-content: center;
     padding-top: 0px;
     padding-bottom: 0px;
+}
 
+.menu-filter > li:not(:last-child) {
+    margin-right: 8px
 }
 
 
 .filter {
     border-radius: 4px;
     padding: 6px 22px;
-    margin-right: 8px
     
 }
 
@@ -65,13 +67,15 @@ main {
     border-color: var(--grey-border);
 }
 
-
-.poster-name {
-    margin-top: 20px;
-    margin-left: 24px;
-    margin-bottom: 0px;
+.poster-pack {
+    padding: 20px 24px;
 }
 
+.poster-name {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 4px;
+}
 .poster-name {
     font-style: normal;
     font-weight: bold;
@@ -79,11 +83,6 @@ main {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--black-text);
-}
-
-.poster-type {
-    margin-top: 4px;
-    margin-left: 24px;
 }
 
 .poster-type {
