@@ -241,13 +241,13 @@ pre {
 
 
 .footer-first {
-    padding-right: 70px;
+    margin-right: 70px;
 }
 
 .footer-second-title {
     margin: 0px;
     padding: 0px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
