@@ -62,12 +62,17 @@ main {
     
 }
 
+.poster-thumb > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .poster-list {
-    flex-basis: calc(100% / 4 - var(--list-gap));
+    max-width: 370px;
+    flex-basis: calc(100% / 3 - var(--list-gap));
     margin-left: var(--list-gap);
     margin-top: var(--list-gap);
-    max-width: 370px;
-    max-height: 404px;
     border: 1px solid;
     border-color: var(--grey-border);
 }

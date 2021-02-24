@@ -29,14 +29,12 @@ main {
 .title-hero {
     color: var(--white-text);
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
-    padding-bottom: 30px;
 }
 
 .hero-button {
@@ -100,11 +98,9 @@ main {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--black-text);
+    margin-bottom: 10px;
 }
 
-.features-text {
-    margin-top: 10px;;
-}
 .features-pre {
    
     font-family: Roboto;
@@ -181,6 +177,11 @@ main {
     margin-top: calc(-1 * var(--list-gap));
 }
 
+.worker-thumb > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .worker-card {
     width: 270px;
     flex-basis: calc(100% / 4 - var(--list-gap));
@@ -203,8 +204,7 @@ main {
 }
 
 .worker-name {
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 
@@ -218,8 +218,7 @@ main {
 }
 
 .worker-position {
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 
 }
 
@@ -237,8 +236,6 @@ main {
 }
 
 .team-link {
-    padding: 0 32px 30px;
-    
     display: flex;
     align-items: center;
 }
