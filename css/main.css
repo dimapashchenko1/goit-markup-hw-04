@@ -204,6 +204,8 @@ main {
 }
 
 .worker-name {
+    margin: 0px;
+    padding: 0px;
     margin-bottom: 10px;
 }
 
@@ -222,6 +224,10 @@ main {
 
 }
 
+.worker-content {
+    padding: 30px 32px;
+}
+
 .worker-position {
     font-style: normal;
     font-weight: normal;
@@ -238,6 +244,7 @@ main {
 .team-link {
     display: flex;
     align-items: center;
+
 }
     
 .team-link-menu:not(:last-child) {
